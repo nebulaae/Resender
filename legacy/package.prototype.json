@@ -1,0 +1,15 @@
+{
+  "name": "resender",
+  "version": "1.0.0",
+  "description": "Telegram userbot that copies messages from channels where saving/forwarding is restricted, and re-posts them to a destination chat.",
+  "private": true,
+  "scripts": {
+    "login": "node src/login.js",
+    "start": "node src/bot.js",
+    "check": "node -c src/bot.js && node -c src/login.js && node -c src/config.js && echo OK"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegram": "^2.26.22"
+  }
+}

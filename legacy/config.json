@@ -1,0 +1,14 @@
+{
+  "options": {
+    "albumWaitMs": 1500,
+    "logLevel": "info"
+  },
+  "routes": [
+    {
+      "source": -1003518911101,
+      "dest": 5547539806,
+      "footer": "",
+      "dropCaption": false
+    }
+  ]
+}

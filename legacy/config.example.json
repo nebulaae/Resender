@@ -1,0 +1,14 @@
+{
+  "options": {
+    "albumWaitMs": 1500,
+    "logLevel": "info"
+  },
+  "routes": [
+    {
+      "source": "@some_private_channel_or_id",
+      "dest": "@your_destination_channel_or_id",
+      "footer": "",
+      "dropCaption": false
+    }
+  ]
+}
